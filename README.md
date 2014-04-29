@@ -3,6 +3,8 @@ WebApp-WSFederation-DotNet
 
 This sample shows how to build a .Net MVC web application that uses WS-Federation to sign-in users from a single Azure Active Directory tenant, using the ASP.Net WS-Federation OWIN middleware.
 
+The use of WS-Federation is appropriate when you want to maintain a single app codebase that can be deployed either against Azure AD or an on-premises provider such as an Active Directory Federation Services (ADFS) instance. For scenarios in which the app targets exclusively Azure AD (or an OpenID Connect compliant provider) please refer to [the WebApp-OpenIdConnect-DotNet sample](https://github.com/AzureADSamples/WebApp-OpenIDConnect-DotNet).  
+
 For more information about how the protocols work in this scenario and other scenarios, see [Authentication Scenarios for Azure AD](http://go.microsoft.com/fwlink/?LinkId=394414).
 
 ## How To Run This Sample
