@@ -38,10 +38,6 @@ If you already have a user account in your Azure Active Directory tenant, you ca
 8. For the sign-on URL, enter the base URL for the sample, which is by default `https://localhost:44320`.
 9. For the App ID URI, enter `https://<your_tenant_name>/WebApp-WSFederation-DotNet`, replacing `<your_tenant_name>` with the name of your Azure AD tenant. Make sure to remember this value, as you will need it later on when configuring your app in Visual Studio.
 
-
-1. While still in the Azure portal, click the Configure tab of your application.
-2. Find the Client ID value and copy it to the clipboard.
-
 ### Step 4:  Configure the sample to use your Azure Active Directory tenant
 
 1. Open the solution in Visual Studio 2013.
