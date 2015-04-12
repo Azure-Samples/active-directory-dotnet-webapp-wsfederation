@@ -59,7 +59,16 @@ namespace WebApp_WSFederation_DotNet
                 new WsFederationAuthenticationOptions
                 {
                     Wtrealm = realm,
-                    MetadataAddress = metadata                                      
+                    MetadataAddress = metadata,
+                    Notifications = new WsFederationAuthenticationNotifications
+                    {
+                        AuthenticationFailed = context =>
+                        {
+                            context.HandleResponse();
+                            context.Response.Redirect("Home/Error?message=" + context.Exception.Message);
+                            return Task.FromResult(0);
+                        }
+                    }
                 });
         }
     }

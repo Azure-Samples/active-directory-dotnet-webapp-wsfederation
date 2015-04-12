@@ -27,5 +27,11 @@ namespace WebApp_WSFederation_DotNet.Controllers
 
             return View();
         }
+
+        public ActionResult Error(string message)
+        {
+            ViewBag.Message = message;
+            return View("Error");
+        }
     }
 }
