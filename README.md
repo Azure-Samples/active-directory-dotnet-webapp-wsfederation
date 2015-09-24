@@ -4,7 +4,7 @@ platforms:
 author: azure
 ---
 
-WebApp-WSFederation-DotNet
+Integrating a web app with Azure AD using WS-Federation
 ===========================
 
 This sample shows how to build a .Net MVC web application that uses WS-Federation to sign-in users from a single Azure Active Directory tenant, using the ASP.Net WS-Federation OWIN middleware.
