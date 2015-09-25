@@ -1,15 +1,14 @@
 ---
-services:
-platforms:
-author: azure
+services: active-directory
+platforms: dotnet
+author: dstrockis
 ---
 
 Integrating a web app with Azure AD using WS-Federation
-===========================
 
 This sample shows how to build a .Net MVC web application that uses WS-Federation to sign-in users from a single Azure Active Directory tenant, using the ASP.Net WS-Federation OWIN middleware.
 
-The use of WS-Federation is appropriate when you want to maintain a single app codebase that can be deployed either against Azure AD or an on-premises provider such as an Active Directory Federation Services (ADFS) instance. For scenarios in which the app targets exclusively Azure AD (or an OpenID Connect compliant provider) please refer to [the WebApp-OpenIdConnect-DotNet sample](https://github.com/AzureADSamples/WebApp-OpenIDConnect-DotNet).  
+The use of WS-Federation is appropriate when you want to maintain a single app codebase that can be deployed either against Azure AD or an on-premises provider such as an Active Directory Federation Services (ADFS) instance. For scenarios in which the app targets exclusively Azure AD (or an OpenID Connect compliant provider) please refer to [the WebApp-OpenIdConnect-DotNet sample](https://github.com/Azure-Samples/active-directory-dotnet-webapp-openidconnect).  
 
 For more information about how the protocols work in this scenario and other scenarios, see [Authentication Scenarios for Azure AD](http://go.microsoft.com/fwlink/?LinkId=394414).
 
@@ -20,13 +19,13 @@ Getting started is simple!  To run this sample you will need:
 - An Internet connection
 - An Azure subscription (a free trial is sufficient)
 
-Every Azure subscription has an associated Azure Active Directory tenant.  If you don't already have an Azure subscription, you can get a free subscription by signing up at [http://www.windowsazure.com](http://www.windowsazure.com).  All of the Azure AD features used by this sample are available free of charge.
+Every Azure subscription has an associated Azure Active Directory tenant.  If you don't already have an Azure subscription, you can get a free subscription by signing up at [https://azure.microsoft.com](https://azure.microsoft.com).  All of the Azure AD features used by this sample are available free of charge.
 
 ### Step 1:  Clone or download this repository
 
 From your shell or command line:
 
-`git clone https://github.com/AzureADSamples/WebApp-WSFederation-DotNet.git`
+`git clone https://github.com/Azure-Samples/active-directory-dotnet-webapp-wsfederation.git`
 
 ### Step 2:  Create a user account in your Azure Active Directory tenant
 
