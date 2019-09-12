@@ -4,8 +4,6 @@ languages:
 - javascript
 - csharp
 - html
-- css
-- asp
 products:
 - azure
 description: "This sample shows how to build a .Net MVC web application that uses WS-Federation to sign-in users from a single Azure Active Directory tenant, using the ASP.Net WS-Federation OWIN middleware."
