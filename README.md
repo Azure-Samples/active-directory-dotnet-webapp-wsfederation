@@ -5,7 +5,7 @@ languages:
 - csharp
 - html
 products:
-- azure
+- azure-active-directory
 description: "Build a .NET MVC web application that uses WS-Federation to sign-in users from a single Azure Active Directory tenant."
 urlFragment: active-directory-dotnet-webapp-wsfederation
 ---
